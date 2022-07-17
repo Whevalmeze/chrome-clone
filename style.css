@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+    margin: 0;
+}
+section{
+    width: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.container{
+    width: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.flex-link-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    align-items: center;
+    justify-items: center;
+}
+input.search-bar {
+    border: none;
+    box-shadow: 0px 0px 10px 0px #d9d9d9;
+    width: 600px;
+    height: 2.8rem;
+    border-radius: 60px;
+    padding: 0rem 3rem;
+}
+input.search-bar:active,:focus,:target{
+    border: none;
+    outline: none;
+}
+.input-icons{
+    height: 1.3rem;
+    width: auto;
+    cursor: pointer;
+}
+.more-icon {
+    position: absolute;
+    background: #eee;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more-icon {
+    display: none;
+}
+a {
+    color: #585857;
+    text-decoration: none;
+    font-size: 14px;
+} 
+.search-input {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    position: relative;
+}
+img.search-icon {
+    position: absolute;
+    left: 1rem;
+}
+img.voice-icon {
+    position: absolute;
+    right: 1rem;
+}
+.favimg-container {
+    background: rgb(0 0 0 / 6%);
+    padding: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-container {
+    gap: 0rem;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    margin-top: 150px;
+}
+.favicons {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 1.3rem;
+    padding: 0.7rem 0rem;
+    border-radius: 0.3rem;
+    width: 7rem;
+    position: relative;
+}
+.favicons:hover {
+    background: rgb(0 0 0 / 5%);  
+}
